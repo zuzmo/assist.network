@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manageTradeCardsResponse xmlns="http://schemas.nav.gov.hu/EKAER/1.0/ekaermanagement">
+	<header>
+		<requestId>RRRID_0062681707</requestId>
+		<timestamp>2014-12-29T16:15:29+01:00</timestamp>
+		<requestVersion>1.0</requestVersion>
+		<headerVersion>1.0</headerVersion>
+	</header>
+	<result>
+		<funcCode>OK</funcCode>
+		<reasonCode>SUCCESS</reasonCode>
+	</result>
+	<tradeCardOperationsResults>
+		<operationResult>
+			<result>
+				<funcCode>OK</funcCode>
+				<reasonCode>SUCCESS</reasonCode>
+				<index>1</index>
+				<operation>create</operation>
+			</result>
+			<tradeCardInfo>
+				<tcn>E14122900000C77</tcn>
+				<orderNumber>20141229161531</orderNumber>
+				<tradeType>I</tradeType>
+				<modByCarrierEnabled>false</modByCarrierEnabled>
+				<carrierText>IT test Carrier</carrierText>
+				<sellerName>IT seller name</sellerName>
+				<sellerVatNumber>1113862035</sellerVatNumber>
+				<sellerCountry>SK</sellerCountry>
+				<sellerAddress>IT seller address</sellerAddress>
+				<destinationName>IT dest name</destinationName>
+				<destinationVatNumber>10036190</destinationVatNumber>
+				<destinationCountry>HU</destinationCountry>
+				<destinationAddress>IT dest address</destinationAddress>
+				<loadLocation>
+					<name>IT test load name</name>
+					<VATNumber>2223862035</VATNumber>
+					<phone>+421909123456</phone>
+					<email>it@it.sk</email>
+					<country>SK</country>
+					<zipCode>98765</zipCode>
+					<city>IT test load city</city>
+					<street>IT load street</street>
+					<streetType>UTCA</streetType>
+					<streetNumber>111</streetNumber>
+					<lotNumber>123</lotNumber>
+				</loadLocation>
+				<unloadLocation>
+					<name>IT test uload name</name>
+					<VATNumber>10036190</VATNumber>
+					<phone>+3660123456789</phone>
+					<email>it@it.hu</email>
+					<country>HU</country>
+					<zipCode>1111</zipCode>
+					<city>IT test uload city</city>
+					<street>IT uload street</street>
+					<streetType>UTCA</streetType>
+					<streetNumber>222</streetNumber>
+					<lotNumber>321</lotNumber>
+				</unloadLocation>
+				<vehicle>
+					<plateNumber>NZ111AA</plateNumber>
+					<country>SK</country>
+				</vehicle>
+				<vehicle2>
+					<plateNumber>NZ222AA</plateNumber>
+					<country>SK</country>
+				</vehicle2>
+				<vehicle3>
+					<plateNumber>NZ333AA</plateNumber>
+					<country>SK</country>
+				</vehicle3>
+				<loadDate>2014-12-13T10:44:21+01:00</loadDate>
+				<arrivalDate>2014-12-15T10:44:21+01:00</arrivalDate>
+				<items>
+					<tradeCardItem id="0SVRYTSYA9PU">
+						<tradeReason>O</tradeReason>
+						<productVtsz>2804</productVtsz>
+						<productName>IT product name 1</productName>
+						<adrNumber>3862018</adrNumber>
+						<transportLincense>3862023</transportLincense>
+						<weight>2000</weight>
+						<value>0</value>
+						<facoryItemNumber>3862022</facoryItemNumber>
+						<importerItemNumber>789</importerItemNumber>
+						<expirationDate>2015-12-13+01:00</expirationDate>
+						<batchNumber>3862018</batchNumber>
+					</tradeCardItem>
+					<tradeCardItem id="0SVRYTSY3UPV">
+						<tradeReason>O</tradeReason>
+						<productVtsz>2804</productVtsz>
+						<productName>IT product name 2</productName>
+						<adrNumber>3862023</adrNumber>
+						<transportLincense>3862027</transportLincense>
+						<weight>2000</weight>
+						<value>0</value>
+						<facoryItemNumber>3862027</facoryItemNumber>
+						<importerItemNumber>789</importerItemNumber>
+						<expirationDate>2015-12-13+01:00</expirationDate>
+						<batchNumber>3862023</batchNumber>
+					</tradeCardItem>
+				</items>
+				<VATNumber>12934850</VATNumber>
+				<status>S</status>
+				<totalWeight>0</totalWeight>
+				<totalValue>0</totalValue>
+				<totalAssuranceLocked>0</totalAssuranceLocked>
+				<insDate>2014-12-29T16:15:31+01:00</insDate>
+				<tcnValidityStart>2014-12-29+01:00</tcnValidityStart>
+				<tcnValidityEnd>2015-01-14+01:00</tcnValidityEnd>
+			</tradeCardInfo>
+		</operationResult>
+	</tradeCardOperationsResults>
+</manageTradeCardsResponse>

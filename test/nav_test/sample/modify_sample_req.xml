@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:manageTradeCardsRequest xmlns:tns="http://schemas.nav.gov.hu/EKAER/1.0/ekaermanagement" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.nav.gov.hu/EKAER/1.0/ekaermanagement">
+	<tns:header>
+		<tns:requestId>RRRID_0113610762</tns:requestId>
+		<tns:timestamp>2014-12-29T16:27:18+01:00</tns:timestamp>
+		<tns:requestVersion>1.0</tns:requestVersion>
+		<tns:headerVersion>1.0</tns:headerVersion>
+	</tns:header>
+	<tns:user>
+		<tns:user>beregabor</tns:user>
+		<tns:passwordHash>BA3253876AED6BC22D4A6FF53D8406C6AD864195ED144AB5C87621B6C233B548BAEAE6956DF346EC8C17F5EA10F35EE3CBC514797ED7DDD3145464E2A0BAB413</tns:passwordHash>
+		<tns:VATNumber>12934850</tns:VATNumber>
+		<tns:requestSignature>B1E9430D7BECE615AAAB05E33D7206AF7C0F63ACAF59AB44ECD54B1F7F7123412D04BB4ED516B41F62A7ADAEE35487DCC6D9D2B632EB5B40D3040607D26AADDE</tns:requestSignature>
+	</tns:user>
+	<tradeCardOperations>
+		<tradeCardOperation>
+			<index>1</index>
+			<operation>modify</operation>
+			<tradeCard>
+				<tcn>E14122900000C84</tcn>
+				<orderNumber>NEW ORDER NUMBER</orderNumber>
+				<tradeType>I</tradeType>
+				<modByCarrierEnabled>false</modByCarrierEnabled>
+				<carrierText>IT test Carrier</carrierText>
+				<sellerName>IT seller name</sellerName>
+				<sellerVatNumber>1113862035</sellerVatNumber>
+				<sellerCountry>SK</sellerCountry>
+				<sellerAddress>IT seller address</sellerAddress>
+				<destinationName>IT dest name</destinationName>
+				<destinationVatNumber>10036190</destinationVatNumber>
+				<destinationCountry>HU</destinationCountry>
+				<destinationAddress>IT dest address</destinationAddress>
+				<loadLocation>
+					<name>IT test load name</name>
+					<VATNumber>2223862035</VATNumber>
+					<phone>+421909123456</phone>
+					<email>it@it.sk</email>
+					<country>SK</country>
+					<zipCode>98765</zipCode>
+					<city>IT test load city</city>
+					<street>IT load street</street>
+					<streetType>UTCA</streetType>
+					<streetNumber>111</streetNumber>
+					<lotNumber>123</lotNumber>
+				</loadLocation>
+				<unloadLocation>
+					<name>IT test uload modified name</name>
+					<VATNumber>10036190</VATNumber>
+					<phone>+3660123456789</phone>
+					<email>it@it.hu</email>
+					<country>HU</country>
+					<zipCode>1111</zipCode>
+					<city>IT test uload city</city>
+					<street>IT uload street</street>
+					<streetType>UTCA</streetType>
+					<streetNumber>222</streetNumber>
+					<lotNumber>321</lotNumber>
+				</unloadLocation>
+				<vehicle>
+					<plateNumber>NZ111AA</plateNumber>
+					<country>SK</country>
+				</vehicle>
+				<vehicle2>
+					<plateNumber>NZ222AA</plateNumber>
+					<country>SK</country>
+				</vehicle2>
+				<vehicle3>
+					<plateNumber>NZ333AA</plateNumber>
+					<country>SK</country>
+				</vehicle3>
+				<loadDate>2014-12-13T10:44:21+01:00</loadDate>
+				<arrivalDate>2014-12-15T10:44:21+01:00</arrivalDate>
+				<items>
+					<tradeCardItem id="0SVSE0OLLLQC">
+						<tradeReason>O</tradeReason>
+						<productVtsz>2804</productVtsz>
+						<productName>IT product name 1 modifyed</productName>
+						<adrNumber>3862018</adrNumber>
+						<transportLincense>3862023</transportLincense>
+						<weight>2000</weight>
+						<value>500</value>
+						<facoryItemNumber>3862022</facoryItemNumber>
+						<importerItemNumber>789</importerItemNumber>
+						<expirationDate>2015-12-13+01:00</expirationDate>
+						<batchNumber>3862018</batchNumber>
+					</tradeCardItem>
+					<tradeCardItem id="0SVSE0OLNHQD">
+						<tradeReason>O</tradeReason>
+						<productVtsz>2804</productVtsz>
+						<productName>IT product name 2 modifyed</productName>
+						<adrNumber>3862023</adrNumber>
+						<transportLincense>3862027</transportLincense>
+						<weight>2000</weight>
+						<value>1300</value>
+						<facoryItemNumber>3862027</facoryItemNumber>
+						<importerItemNumber>789</importerItemNumber>
+						<expirationDate>2015-12-13+01:00</expirationDate>
+						<batchNumber>3862023</batchNumber>
+					</tradeCardItem>
+					<tradeCardItem>
+						<tradeReason>O</tradeReason>
+						<productVtsz>2804</productVtsz>
+						<productName>IT product New product</productName>
+						<weight>1000</weight>
+						<value>1300000</value>
+						<importerItemNumber>7892</importerItemNumber>
+						<expirationDate>2015-12-13+01:00</expirationDate>
+					</tradeCardItem>
+				</items>
+			</tradeCard>
+		</tradeCardOperation>
+	</tradeCardOperations>
+</tns:manageTradeCardsRequest>

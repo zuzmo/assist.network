@@ -1,0 +1,1 @@
+rackup config.ru "$@" &

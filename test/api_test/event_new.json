@@ -1,0 +1,61 @@
+{
+  "event": "order_received",
+  "order": {
+    "userID": 0,
+    "ownerID": 1,
+    "carrierID": 2,
+    "partnerID": 2,
+    "customerOrderID": "323",
+    "modByCarrierEnabled": "on",
+    "carrierText": "carrier text",
+    "sellerName": "PPT Logistics",
+    "sellerVatNumber": "12345678",
+    "sellerCountry": "HU",
+    "sellerAddress": "P\u00e9cel 111",
+    "destinationName": "DEMO Trans Kft.",
+    "destinationVatNumber": "66666666",
+    "destinationCountry": "HU",
+    "destinationAddress": "Demo utca 123.",
+    "loadLocation": {
+      "name": "Hat\u00e1rment\u00e9n",
+      "VATNumber": "121212",
+      "phone": "+36303031137",
+      "email": "brezy@ppt.eu",
+      "country": "HU",
+      "zipCode": "2030",
+      "city": "\u00c9rd",
+      "street": "T\u00far",
+      "streetType": "utca",
+      "streetNumber": "30",
+      "lotNumber": "234324"
+    },
+    "unloadLocation": {
+      "name": "Hegyeshalom hat\u00e1r",
+      "VATNumber": "1111",
+      "phone": "+36303031137",
+      "email": "brezy@ppt.eu",
+      "country": "HU",
+      "zipCode": "9100",
+      "city": "Vil\u00e1gv\u00e9ge",
+      "street": "Utcar\u00e9sz",
+      "streetType": "utca",
+      "streetNumber": "1",
+      "lotNumber": "Hungary"
+    },
+    "carts": [{
+      "items": [{
+        "tradeReason": "O",
+        "productVtsz": "2804",
+        "productName": "IT product name 1",
+        "adrNumber": "3862018",
+        "transportLicense": "3862023",
+        "weight": "2000",
+        "value": "500",
+        "factoryItemNumber": "3862022",
+        "importerItemNumber": "789",
+        "expirationDate": "2015-12-13+01:00",
+        "batchNumber": "3862018"
+      }]
+    }]
+  }
+}

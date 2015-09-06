@@ -1,0 +1,102 @@
+{
+  "xmlns:tns": "http://schemas.nav.gov.hu/EKAER/1.0/ekaermanagement",
+  "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "xmlns": "http://schemas.nav.gov.hu/EKAER/1.0/ekaermanagement",
+  "tns:header": [{
+    "tns:requestId": ["RRRID00000000002"],
+    "tns:timestamp": ["2015-02-05T13:20:00+01:00"],
+    "tns:requestVersion": ["1.6"],
+    "tns:headerVersion": ["1.6"]
+  }],
+  "tns:user": [{
+    "tns:user": ["LEHOCPe"],
+    "tns:passwordHash": ["C2674F048110EF323C7E67DE972C02A78A648E7BDF60D29116D34AC446AFB277B21D9D805976FA50122791AC2D029AECC8D08CF9E61127A0D6CAE57DC12CE888"],
+    "tns:VATNumber": ["13306265"],
+    "tns:requestSignature": ["4A9B369F892F2CB733B062EF07106B849B0E3F627F82F68F7577E38485EA7343E45F994DCEE77F5D8823968C38A46BD93F90D33F8D6B3886988A7CEA2D66074B"]
+  }],
+  "tradeCardOperations": [{
+    "tradeCardOperation": [{
+      "index": ["1"],
+      "operation": ["modify"],
+      "tradeCard": [{
+        "tcn": ["E14122900000C84"],
+        "orderNumber": ["NEW ORDER NUMBER"],
+        "tradeType": ["I"],
+        "modByCarrierEnabled": ["false"],
+        "carrierText": ["IT test Carrier"],
+        "sellerName": ["IT seller name"],
+        "sellerVatNumber": ["1113862035"],
+        "sellerCountry": ["SK"],
+        "sellerAddress": ["IT seller address"],
+        "destinationName": ["IT dest name"],
+        "destinationVatNumber": ["13306265"],
+        "destinationCountry": ["HU"],
+        "destinationAddress": ["IT dest address"],
+        "loadLocation": [{
+          "name": ["IT test load name"],
+          "VATNumber": ["2223862035"],
+          "phone": ["+421909123456"],
+          "email": ["it@it.sk"],
+          "country": ["SK"],
+          "zipCode": ["98765"],
+          "city": ["IT test load city"],
+          "street": ["IT load street"],
+          "streetType": ["UTCA"],
+          "streetNumber": ["111"],
+          "lotNumber": ["123"]
+        }],
+        "unloadLocation": [{
+          "name": ["IT test uload modified name"],
+          "VATNumber": ["10036190"],
+          "phone": ["+3660123456789"],
+          "email": ["it@it.hu"],
+          "country": ["HU"],
+          "zipCode": ["1111"],
+          "city": ["IT test uload city"],
+          "street": ["IT uload street"],
+          "streetType": ["UTCA"],
+          "streetNumber": ["222"],
+          "lotNumber": ["321"]
+        }],
+        "vehicle": [{
+          "plateNumber": ["NZ111AA"],
+          "country": ["SK"]
+        }],
+        "vehicle2": [{
+          "plateNumber": ["NZ222AA"],
+          "country": ["SK"]
+        }],
+        "vehicle3": [{
+          "plateNumber": ["NZ333AA"],
+          "country": ["SK"]
+        }],
+        "loadDate": ["2015-02-12T10:44:21+01:00"],
+        "arrivalDate": ["2015-02-16T10:44:21+01:00"],
+        "items": [{
+          "tradeCardItem": [{
+            "id": "0SVSE0OLLLQC",
+            "tradeReason": ["O"],
+            "productVtsz": ["2804"],
+            "productName": ["IT product name 1 modified"],
+            "adrNumber": ["3862018"],
+            "transportLincense": ["3862023"],
+            "weight": ["2000"],
+            "value": ["500"],
+            "facoryItemNumber": ["3862022"],
+            "importerItemNumber": ["789"],
+            "expirationDate": ["2015-12-13+01:00"],
+            "batchNumber": ["3862018"]
+          }, {
+            "tradeReason": ["O"],
+            "productVtsz": ["2804"],
+            "productName": ["IT product New product"],
+            "weight": ["1000"],
+            "value": ["1300000"],
+            "importerItemNumber": ["7892"],
+            "expirationDate": ["2015-12-13+01:00"]
+          }]
+        }]
+      }]
+    }]
+  }]
+}

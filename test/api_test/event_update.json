@@ -1,0 +1,86 @@
+{
+  "event": "order_approved",
+  "cartID": "6",
+  "order": {
+    "userID": 86,
+    "ownerID": 49,
+    "carrierID": "2",
+    "partnerID": "1",
+    "customerOrderID": "3232",
+    "modByCarrierEnabled": "false",
+    "carrierText": "DEMO Trans Kft.",
+    "sellerName": "Csab KFT",
+    "sellerVatNumber": "12121212",
+    "sellerCountry": "HU",
+    "sellerAddress": "Csab KFT",
+    "destinationName": "PPT Logistics",
+    "destinationVatNumber": "12345678",
+    "destinationCountry": "HU",
+    "destinationAddress": "P\u00e9cel 111",
+    "loadLocation": {
+      "name": "Location",
+      "VATNumber": "75757575",
+      "phone": "1212",
+      "email": "brezy@ppt.eu",
+      "country": "HU",
+      "zipCode": "1117",
+      "city": "Budapest",
+      "street": "Nadorliget",
+      "streetType": "utca",
+      "streetNumber": "7",
+      "lotNumber": ""
+    },
+    "unloadLocation": {
+      "name": "UNloadlocation",
+      "VATNumber": "22222222",
+      "phone": "+36303031137",
+      "email": "breznyanszky@outlook.com",
+      "country": "HU",
+      "zipCode": "2030",
+      "city": "\u00c9rd",
+      "street": "T\u00far",
+      "streetType": "utca",
+      "streetNumber": "6",
+      "lotNumber": "2323"
+    },
+    "carts": [{
+      "items": [{
+        "tradeReason": "",
+        "productVtsz": "",
+        "productName": "",
+        "adrNumber": "",
+        "transportLicense": "",
+        "weight": "",
+        "value": "",
+        "factoryItemNumber": "",
+        "importerItemNumber": "",
+        "expirationDate": "",
+        "batchNumber": ""
+      }, {
+        "tradeReason": "O",
+        "productVtsz": "2804",
+        "productName": "IT product name 1",
+        "adrNumber": "3862018",
+        "transportLicense": "3862023",
+        "weight": "2000",
+        "value": "250000",
+        "factoryItemNumber": "3862022",
+        "importerItemNumber": "erer",
+        "expirationDate": "",
+        "batchNumber": "1"
+      }, {
+        "tradeReason": "O",
+        "productVtsz": "9999",
+        "productName": "Ez egy m\u00e1sik term\u00e9k",
+        "adrNumber": "11223",
+        "transportLicense": "3453",
+        "weight": "34",
+        "value": "500",
+        "factoryItemNumber": "12345",
+        "importerItemNumber": "345345",
+        "expirationDate": "",
+        "batchNumber": "2"
+      }]
+    }]
+  }
+}

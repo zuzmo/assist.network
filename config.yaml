@@ -1,0 +1,5 @@
+url: https://import-test-b.ekaer.nav.gov.hu
+manage_service: /TradeCardManagementService/customer/manageTradeCards
+query_service: /TradeCardManagementService/customer/queryTradeCards
+secret: u2hyfZ8hVB
+logfile: log/ekaer.log

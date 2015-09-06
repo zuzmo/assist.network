@@ -1,0 +1,24 @@
+{
+  "xmlns:tns": "http://schemas.nav.gov.hu/EKAER/1.0/ekaermanagement",
+  "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "xmlns": "http://schemas.nav.gov.hu/EKAER/1.0/ekaermanagement",
+  "tns:header": [{
+    "tns:requestId": ["RRRID00000000002"],
+    "tns:timestamp": ["2015-02-05T13:20:00+01:00"],
+    "tns:requestVersion": ["1.6"],
+    "tns:headerVersion": ["1.6"]
+  }],
+  "tns:user": [{
+    "tns:user": ["LEHOCPe"],
+    "tns:passwordHash": ["C2674F048110EF323C7E67DE972C02A78A648E7BDF60D29116D34AC446AFB277B21D9D805976FA50122791AC2D029AECC8D08CF9E61127A0D6CAE57DC12CE888"],
+    "tns:VATNumber": ["13306265"],
+    "tns:requestSignature": ["4A9B369F892F2CB733B062EF07106B849B0E3F627F82F68F7577E38485EA7343E45F994DCEE77F5D8823968C38A46BD93F90D33F8D6B3886988A7CEA2D66074B"]
+  }],
+  "tradeCardOperations": [{
+    "tradeCardOperation": [{
+      "index": ["1"],
+      "operation": ["delete"],
+      "tcn": ["E14122900000C84"]
+    }]
+  }]
+}

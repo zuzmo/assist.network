@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manageTradeCardsResponse xmlns="http://schemas.nav.gov.hu/EKAER/1.0/ekaermanagement">
+	<header>
+		<requestId>RRRID_0062681707</requestId>
+		<timestamp>2014-12-29T16:15:29+01:00</timestamp>
+		<requestVersion>1.0</requestVersion>
+		<headerVersion>1.0</headerVersion>
+	</header>
+	<result>
+		<funcCode>OK</funcCode>
+		<reasonCode>SUCCESS</reasonCode>
+	</result>
+	<tradeCardOperationsResults>
+		<operationResult>
+			<result>
+				<funcCode>OK</funcCode>
+				<reasonCode>SUCCESS</reasonCode>
+				<index>1</index>
+				<operation>create</operation>
+			</result>
+		</operationResult>
+	</tradeCardOperationsResults>
+</manageTradeCardsResponse>
