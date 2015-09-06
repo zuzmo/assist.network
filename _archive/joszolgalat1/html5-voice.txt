@@ -1,0 +1,9 @@
+Freeswitchben nincs SIP over WebSocket
+http://jira.freeswitch.org/browse/FS-5199
+
+A használható technológiák egyben
+http://www.doubango.org/
+
+https://hacks.mozilla.org/2012/09/full-webrtc-support-is-soon-coming-to-a-web-browser-near-you/
+
+http://code.google.com/p/jinglenodes/ ( ha nem tud a kliens p2p html5 )
